@@ -14,11 +14,24 @@
     />
   </head>
   <body>
-    <header>
+    <header class="text-center mb-5 text-danger">
       <h1>Exploring Food</h1>
     </header>
 
     <main>
+      <section class="text-center">
+        <input
+          type="text"
+          id="input-field"
+          placeholder="Please write food name"
+        />
+        <button onclick="foodSearch()" class="btn btn-warning">Search</button>
+      </section>
+
+      <section>
+        <h3>Meal Details</h3>
+      </section>
+
       <section class="container">
         <h2>My Meal</h2>
 
