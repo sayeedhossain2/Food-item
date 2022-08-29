@@ -8,7 +8,6 @@ const loadMeals = (search) => {
 loadMeals("a");
 
 const displayMeals = (meals) => {
-  // console.log(meals);
   const allMeal = document.getElementById("allMeal");
   allMeal.innerHTML = "";
   meals.forEach((meal) => {
